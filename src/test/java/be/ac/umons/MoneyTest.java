@@ -110,7 +110,7 @@ public class MoneyTest extends TestCase{
      */
     @Test
     public void testAdd() throws Exception {
-        System.out.println("Add Test");
+        System.out.println("Add Test ++++ ****");
         int namount = 10;
         String currency = "Euro";
         Money instance = new Money(13, "Euro");
