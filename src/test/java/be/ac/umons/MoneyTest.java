@@ -76,7 +76,7 @@ public class MoneyTest extends TestCase{
     public void testCurrency() {
         System.out.println("Currency Test");
         Money instance = new Money(124, "Euro");
-        String expResult = "Euro";
+        String expResult = "Euros";
         String result = instance.currency();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
