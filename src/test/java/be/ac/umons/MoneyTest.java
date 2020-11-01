@@ -76,7 +76,7 @@ public class MoneyTest extends TestCase{
     public void testCurrency() {
         System.out.println("Currency Test");
         Money instance = new Money(124, "Euro");
-        String expResult = "Euros";
+        String expResult = "Euro";
         String result = instance.currency();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -110,7 +110,7 @@ public class MoneyTest extends TestCase{
      */
     @Test
     public void testAdd() throws Exception {
-        System.out.println("Add Test ++++ ****");
+        System.out.println("Add Test");
         int namount = 10;
         String currency = "Euro";
         Money instance = new Money(13, "Euro");
