@@ -54,7 +54,7 @@ public class MoneyTest extends TestCase{
      */
     @Test
     public void testAmount() {
-        System.out.println("Amount Test New look **** __");
+        System.out.println("Amount Test New look __**** __");
         Money instance = new Money(12, "Euro");
         int expResult = 23;
         int result = instance.amount();
